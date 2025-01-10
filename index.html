@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BST Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Binary Search Tree Visualizer</h1>
+        </header>
+        
+        <main>
+            <div class="input-section">
+                <div class="input-group">
+                    <input type="text" id="numbers-input" placeholder="Enter up to 30 integers (space-separated)">
+                    <div class="buttons">
+                        <button id="generate-random" class="btn">Generate Random</button>
+                        <button id="build-tree" class="btn primary">Build BST</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="visualization-section">
+                <div class="traversal-controls">
+                    <button id="lrt-btn" class="btn">LRT (Postorder)</button>
+                    <button id="tlr-btn" class="btn">TLR (Preorder)</button>
+                    <button id="ltr-btn" class="btn">LTR (Inorder)</button>
+                </div>
+                <div id="traversal-result" class="result-display"></div>
+                <div id="tree-visualization"></div>
+            </div>
+        </main>
+
+        <footer>
+            <p>BST Visualizer - A Data Structures Project</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.25.0/cytoscape.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dagre/0.8.5/dagre.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cytoscape-dagre@2.5.0/cytoscape-dagre.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
