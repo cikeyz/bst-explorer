@@ -7,11 +7,11 @@
 
 <p align="center">
   <a href="https://case-study-5-dsa-g3.vercel.app/">Live Demo</a>
-  &nbsp;·&nbsp;
+  &nbsp;&middot;&nbsp;
   <a href="#quick-start">Quick Start</a>
-  &nbsp;·&nbsp;
+  &nbsp;&middot;&nbsp;
   <a href="#project-structure">Structure</a>
-  &nbsp;·&nbsp;
+  &nbsp;&middot;&nbsp;
   <a href="#license">License</a>
 </p>
 
@@ -51,22 +51,22 @@ to generate random trees, insert keys, and reason about structure.
 
 Static UI only:
 
-`ash
+```bash
 git clone https://github.com/cikeyz/bst-explorer.git
 cd bst-explorer
 python -m http.server 8000
-`
+```
 
 Full stack (Flask):
 
-`ash
+```bash
 pip install flask
 python app.py
-`
+```
 
 ## Project Structure
 
-`	ext
+```text
 bst-explorer/
 ├── index.html
 ├── script.js
@@ -76,7 +76,7 @@ bst-explorer/
 ├── LICENSE
 ├── README.md
 └── .gitignore
-`
+```
 
 ## License
 
